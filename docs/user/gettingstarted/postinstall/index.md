@@ -27,7 +27,7 @@ It is **strongly** recommended that you use a separate global administrator acco
 
 If you have waited for at least 30 minutes and things are still not working restart the Function App (**Azure Portal > CIPP Resource Group > Function App > Overview > Restart**). This solves 99.9% of all issues. Turn it off, turn it on again.
 
-If you're still stuck, check out the [FAQ](/docs/general/faq/) or [Troubleshooting](/troubleshooting) pages and if needed - create an issue [on GitHub](https://github.com/KelvinTegelaar/CIPP/issues) or seek help [on the CIPP Discord](https://discord.gg/cyberdrain)
+If you're still stuck, check out the [FAQ](/docs/general/faq/) or [Troubleshooting](/docs/general/troubleshooting/) pages and if needed - create an issue [on GitHub](https://github.com/KelvinTegelaar/CIPP/issues) or seek help [on the CIPP Discord](https://discord.gg/cyberdrain)
 
 ## Adding a Custom Domain Name
 
