@@ -13,17 +13,25 @@ const Page = () => {
     "portal_m365",
     "portal_exchange",
     "portal_entra",
+    "portal_sharepoint",
     "portal_teams",
     "portal_azure",
     "portal_intune",
     "portal_security",
     "portal_compliance",
+    "portal_platform",
+    "portal_bi",
   ];
 
   const actions = [
     {
       label: "Edit Tenant",
-      link: "/tenant/administration/tenants/edit?id=[customerId]",
+      link: "/tenant/standards/manage-drift/edit-tenant?tenantFilter=[defaultDomainName]",
+      icon: <Edit />,
+    },
+    {
+      label: "Configure Backup",
+      link: "/tenant/standards/manage-drift/configuration-backup?tenantFilter=[defaultDomainName]",
       icon: <Edit />,
     },
   ];
