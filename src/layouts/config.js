@@ -448,6 +448,16 @@ export const nativeMenuItems = [
             permissions: ["Endpoint.MEM.*"],
           },
           {
+            title: "Reusable Settings",
+            path: "/endpoint/MEM/reusable-settings",
+            permissions: ["Endpoint.MEM.*"],
+          },
+          {
+            title: "Reusable Settings Templates",
+            path: "/endpoint/MEM/reusable-settings-templates",
+            permissions: ["Endpoint.MEM.*"],
+          },
+          {
             title: "Assignment Filters",
             path: "/endpoint/MEM/assignment-filters",
             permissions: ["Endpoint.MEM.*"],
@@ -791,7 +801,6 @@ export const nativeMenuItems = [
             path: "/tenant/tools/tenantlookup",
             permissions: ["Tenant.Administration.*"],
           },
-
           {
             title: "IP Database",
             path: "/tenant/tools/geoiplookup",
@@ -802,6 +811,11 @@ export const nativeMenuItems = [
             title: "Individual Domain Check",
             path: "/tenant/tools/individual-domains",
             permissions: ["Tenant.DomainAnalyser.*"],
+          },
+          {
+            title: "BitLocker Key Search",
+            path: "/tenant/tools/bitlocker-search",
+            permissions: ["Endpoint.Device.Read"],
           },
         ],
       },
@@ -890,7 +904,7 @@ export const nativeMenuItems = [
         title: "Setup Wizard",
         path: "/onboardingv2",
         roles: ["admin", "superadmin"],
-        permissions: ["CIPP.Core.*"],
+        permissions: ["CIPP.AppSettings.*"],
       },
       {
         title: "Integrations",
@@ -902,7 +916,7 @@ export const nativeMenuItems = [
         title: "Custom Data",
         path: "/cipp/custom-data/directory-extensions",
         roles: ["admin", "superadmin"],
-        permissions: ["CIPP.Core.*"],
+        permissions: ["CIPP.AppSettings.*"],
       },
       {
         title: "Advanced",
