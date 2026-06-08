@@ -482,7 +482,7 @@ export const nativeMenuItems = [
         ],
       },
       {
-        title: 'Autopilot',
+        title: 'Autopilot & Enrollment',
         permissions: ['Endpoint.Autopilot.*'],
         items: [
           {
@@ -496,8 +496,8 @@ export const nativeMenuItems = [
             permissions: ['Endpoint.Autopilot.*'],
           },
           {
-            title: 'Profiles',
-            path: '/endpoint/autopilot/list-profiles',
+            title: 'Enrollment Profiles',
+            path: '/endpoint/autopilot/enrollment-profiles',
             permissions: ['Endpoint.Autopilot.*'],
           },
           {
